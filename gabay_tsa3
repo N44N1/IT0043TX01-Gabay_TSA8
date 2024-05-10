@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gabay_TSA2</title>
+</head>
+<body>
+    <center>
+        <form name="Pokedex" action="#" method="post">
+            <label for="nd">National Dex:</label>
+            <input type="number" name="nationaldex" id="nd" min="0"><br><br>
+            <input type="radio" name="generation1" id="gen1">
+            <label for="gen1">Generation 1</label>
+            <input type="radio" name="generation2" id="gen2">
+            <label for="gen2">Generation 2</label>
+            <input type="radio" name="generation3" id="gen3">
+            <label for="gen3">Generation 3</label>
+            <input type="radio" name="generation4" id="gen4">
+            <label for="gen4">Generation 4</label>
+            <input type="radio" name="generation5" id="gen5">
+            <label for="gen5">Generation 5</label>
+            <input type="radio" name="generation6" id="gen6">
+            <label for="gen6">Generation 6</label>
+            <input type="radio" name="generation7" id="gen7">
+            <label for="gen7">Generation 7</label>
+            <input type="radio" name="generation8" id="gen8">
+            <label for="gen8">Generation 8</label>
+            <input type="radio" name="generation9" id="gen9">
+            <label for="gen9">Generation 9</label><br><br>
+            <label for="pname">Pokemon Name:</label>
+            <input type="text" name="pokemonname" id="pname"><br><br>
+            <label for="img">Image:</label>
+            <button type="file">Choose File</button> No File chosen <br><br>
+            <label for="t1">Type 1:</label>
+            <input type="datslist" name="type1" id="t1">
+            <label for="t2">Type 2:</label>
+            <input type="datalist" name="type2" id="t2"><br><br>
+            <label for="evf">Evolves From:</label>
+            <input type="text" name="evolvesfrom" id="evf">
+            <label for="evt">Evolves To:</label>
+            <input type="text" name="evolvesto" id="evt"><br><br>
+            <label for="nick">Nickname:</label>
+            <input type="text" name="nickname" id="nick"><br><br>
+            <label for="bday">Birthday:</label>
+            <input type="date" name="birthday" id="bday">
+            <input type="submit">
+        </form>
+        <br><br>
+        <table border="1" align="center">
+            <tr align="center">
+                <th>National Dex</th> <th>Generation</th> <th>Pokemon Name</th> <th>Image</th> <th>Type 1</th>
+                <th>Type 2</th> <th>Evolves From</th> <th>Evolves To</th> <th>Ncikname</th> <th>Birthday</th>
+            </tr>
+            <tr align="center">
+                <td>41</td> <td>Generation 1</td> <td>Zubat</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/4/4c/0041Zubat.png" width="100px" height="100px"></a></td> 
+                <td bgcolor="#bb82c4"><font color="white">Poison</font></td> <td bgcolor="ligblue"><font color="white">Flying</font></td> <td>-</td> <td>Golbat</td> <td>Paniki</td> <td>16-7-2022</td>
+            </tr>
+            <tr align="center">
+                <td>143</td> <td>Generation 1</td> <td>Snorlax</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/3/3f/0143Snorlax.png" width="100px" height="100px"></a></td> 
+                <td colspan="2" bgcolor="gray"><font color="white">Normal</font></td> <td>Munchlax</td> <td>-</td> <td>Sleepyboi</td> <td>17-8-2023</td> 
+            </tr>
+            <tr align="center">
+                <td>137</td> <td>Generation 1</td> <td>Porygon</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/8/8e/0137Porygon.png" width="100px" height="100px"></a></td> 
+                <td colspan="2" bgcolor="gray"><font color="white">Normal</font></td> <td>-</td> <td>Porygon2</td> <td>Poly</td> <td>19-11-2020</td> 
+            </tr>
+            <tr align="center">
+                <td>292</td> <td>Generation 3</td> <td>Shedinja</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/a/ad/0292Shedinja.png" width="100px" height="100px"></a></td> 
+                <td bgcolor="#88af34"><font color="white">Bug</font></td> <td bgcolor="#611e9b"><font color="white">Ghost</font></td> <td>Nincada</td> <td>-</td> <td>Knight</td> <td>09-09-2019</td>
+            </tr>
+            <tr align="center">
+                <td>11</td> <td>Generation 1</td> <td>Metapod</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/d/da/0011Metapod.png" width="100px" height="100px"></a></td> 
+                <td colspan="2" bgcolor="#88af34"><font color="white">Bug</font></td> <td>Caterpie</td> <td>Butterfee</td> <td>Pea</td> <td>31-1-2020</td> 
+            </tr>
+            <tr align="center">
+                <td>892</td> <td>Generation 8</td> <td>Urshifu</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/5/57/0892Urshifu-Single_Strike.png" width="100px" height="100px"></a></td> 
+                <td bgcolor="orange"><font color="white">Fighting</font></td> <td bgcolor="#372745"><font color="white">Dark</font></td> <td>Kubfu</td> <td>-</td> <td>Shifu</td> <td>28-3-2023</td>
+            </tr>
+            <tr align="center">
+                <td>911</td> <td>Generation 9</td> <td>Skeledirge</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/3/3e/0911Skeledirge.png" width="100px" height="100px"></a></td> 
+                <td bgcolor="red"><font color="white">Fire</font></td> <td bgcolor="#611e9b"><font color="white">Ghost</font></td> <td>Crocalor</td> <td>-</td> <td>Croc</td> <td>10-10-2020</td>
+            </tr>
+            <tr align="center">
+                <td>445</td> <td>Generation 4</td> <td>Garchomp</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/a/a8/0445Garchomp.png" width="100px" height="100px"></a></td> 
+                <td bgcolor="#4f12ef"><font color="white">Dragon</font></td> <td bgcolor="Brown"><font color="white">Ground</font></td> <td>Gabite</td> <td>-</td> <td>Shork</td> <td>13-12-2019</td>
+            </tr>
+            <tr align="center">
+                <td>700</td> <td>Generation 6</td> <td>Sylveon</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/d/d0/0700Sylveon.png" width="100px" height="100px"></a></td> 
+                <td colspan="2" bgcolor="#f376f1"><font color="white">Fairy</font></td> <td>Eevee</td> <td>-</td> <td>Seevee</td> <td>25-2-2022</td> 
+            </tr>
+            <tr align="center">
+                <td>25</td> <td>Generation 1</td> <td>Pikachu</td> <td><a href="#"><img src="https://archives.bulbagarden.net/media/upload/4/4a/0025Pikachu.png" width="100px" height="100px"></a></td> 
+                <td colspan="2" bgcolor="#ebbd52"><font color="white">Electric</font></td> <td>Pichu</td> <td>Raichu</td> <td>Pika</td> <td>12-11-2021</td> 
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
