@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="maincon">
+        <div class="container1" id="con1">
+            <div class="reset" id="res">
+                <button id="resetflex" onclick="resetFlexbox()">Reset Flexbox</button>
+                <div class="gap">
+                    <label for="gap">Gap: </label>
+                    <input type="number" id="gap" oninput="gapSize()">
+                </div>
+            </div>
+            <div class="direction" id="direct">
+                <p>Flex Direction</p>
+                <button id="row" onclick="flexPositions(2)">Row</button>
+                <button id="col" onclick="flexPositions(1)">Column</button>
+            </div>
+            <div class="juscont" id="jc">
+                <p>Justify Content</p>
+                <button id="jcstart" onclick="flexPositions(3)">Start</button>
+                <button id="jccenter" onclick="flexPositions(4)">Center</button>
+                <button id="jcend" onclick="flexPositions(5)">End</button>
+                <button id="spacebet" onclick="flexPositions(6)">Space Between</button>
+                <button id="spacear" onclick="flexPositions(7)">Space Around</button>
+                <button id="spaceev" onclick="flexPositions(8)">Space Evenly</button>
+            </div>
+            <div class="align" id="alignitems">
+                <p>Align Items</p>
+                <button id="aistart" onclick="flexPositions(9)">Start</button>
+                <button id="aicenter" onclick="flexPositions(10)">Center</button>
+                <button id="aiend" onclick="flexPositions(11)">End</button>
+            </div>
+            <div class="grow" id="fgrow">
+                <p>Flex Grow</p>
+                <button id="fgreset" onclick="resetFlexGrow()">Reset</button>
+                <button id="grow" onclick="growAll()">Grow All</button>
+                <label for="boxa">Box A: </label>
+                <input type="number" id="boxa" oninput="changeFlexGrow('item1')">
+                <label for="boxb">Box B: </label>
+                <input type="number" id="boxb" oninput="changeFlexGrow('item2')">
+                <label for="boxc">Box C: </label>
+                <input type="number" id="boxc" oninput="changeFlexGrow('item3')">
+            </div>
+        </div>
+        <div id="con2">
+            <div class="box" id="b1">A</div>
+            <div class="box" id="b2">B</div>
+            <div class="box" id="b3">C</div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
